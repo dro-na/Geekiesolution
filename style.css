@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* centers all header content horizontally */
+    align-items: center;
+    /* centers vertically */
+    gap: 100px;
+    /* space between logo and nav */
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 2px solid gainsboro;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: 04 ease;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#contact {
+    height: 45px;
+    background-color: rgb(48, 48, 175);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: navy;
+}
+
+#contact:hover {
+    box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.intro {
+    padding-bottom: 150px;
+}
+
+.intro .int {
+    text-align: center;
+}
+
+.int {
+    /* margin-top: 80px; */
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.int h1 {
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.int span {
+    color: rgb(66, 66, 165);
+}
+
+.int p {
+    padding: 20px;
+    height: 70px;
+    font-size: 20px;
+    color: grey;
+}
+
+.int #explore {
+    height: 55px;
+    background-color: rgb(68, 68, 133);
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+    width: 250px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    font-size: 18px;
+}
+
+.int .start {
+    height: 55px;
+    width: 150px;
+    background: none;
+    border: 1.5px solid skyblue;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: grey;
+}
+
+
+.svg ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    color: grey;
+    padding: 20px;
+}
+
+.event {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.event h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(47, 47, 168);
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.event p {
+    color: grey;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.min-w-full img {
+    /* height: 350px; */
+    width: 990px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.cards {
+    padding-top: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
+}
+
+.card1 {
+    background-color: #fff;
+    max-width: 500px;
+    /* margin: auto; */
+    margin-right: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    /* border: 1px solid grey; */
+
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.23);
+}
+
+.card1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(47, 47, 168);
+    padding-bottom: 10px;
+}
+
+.card1:hover {
+    box-shadow: 0px 30px 17px -28px rgba(0, 0, 0, 0.53);
+
+}
+
+.card1 p {
+    color: darkslategrey;
+    font-size: 18px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team figcaption h2 {
+    color: rgb(47, 47, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.team figcaption p {
+    font-size: 17px;
+}
+
+marquee {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 990px;
+    text-align: center;
+}
+
+
+.prodts {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.prod1 {
+    background-color: white;
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.27);
+    width: 350px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.prod1 img {
+    height: 200px;
+    width: 350px;
+}
+
+
+.prod1 .book {
+    font-size: 15px;
+}
+
+.prod1 .layers {
+    font-size: 15px;
+}
+
+.prod1 .cpu {
+    font-size: 15px;
+}
+
+.prod1 h2 {
+    color: rgb(47, 47, 168);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+}
+
+.prod1 p {
+    line-height: 30px;
+    color: darkslategray;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.prod1 a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+
+.consult {
+    /* background-color: black; */
+}
+
+.training {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.training h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-weight: 750;
+    font-size: 2.2em;
+    color: rgb(47, 47, 168);
+}
+
+.training p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2em;
+    color: rgb(66, 64, 64);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-train {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px
+}
+
+
+
+.card-consult {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    padding-left: 40px;
+    height: 200px;
+    border-radius: 20px;
+    width: 200px;
+
+}
+
+.card-consult:hover {
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-cyber {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 48px;
+    padding-left: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.card-cyber:hover {
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+/* .card-consult i{
+    color: ;
+    background-color: rgb(228, 228, 228);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 0;
+    margin: 5px;
+    color: black;
+} */
+
+
+.title {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+.card-consult h2 {
+    color: rgb(47, 47, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+
+}
+
+.card-cyber h2 {
+    color: rgb(47, 47, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+
+}
+
+.card-consult ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.card-consult ul li {
+    color: rgb(48, 48, 48);
+    letter-spacing: 1px;
+}
+
+.card-cyber ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.card-cyber ul li {
+    color: rgb(48, 48, 48);
+    letter-spacing: 1px;
+}
+
+
+.investor {
+    background-color: whitesmoke;
+    margin-top: 90px;
+    padding-bottom: 70px;
+}
+
+.investor h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    font-size: 2.3em;
+    color: rgb(47, 47, 168);
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+.investor p {
+    font-family: Arial;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: rgb(95, 94, 94);
+    text-align: center;
+}
+
+
+.invest {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.invest-card {
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+
+}
+
+.invest-card h1 {
+    font-size: 1.9rem;
+    padding-top: 20px;
+
+}
+
+.invest-card p {
+    padding-top: 10px;
+}
+
+
+.investor-deck {
+    background-color: #fff;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 10px;
+    line-height: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+    padding-left: 27px;
+
+}
+
+.investor-deck h1 {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 1.6em;
+}
+
+.investor-deck p {
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.investor-deck button {
+    height: 50px;
+    width: 250px;
+    border: none;
+    background-color: rgb(69, 69, 182);
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.contact-us {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.context {
+    text-align: center;
+    line-height: 40px;
+}
+
+.context h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 799;
+    font-size: 2.3em;
+    color: rgb(47, 47, 168);
+    padding-top: 50px;
+    text-align: center;
+}
+
+.context p {
+    font-family: Arial;
+    padding: 8px;
+    font-size: 1.2rem;
+    color: rgb(95, 94, 94);
+    text-align: center;
+}
+
+/* ===== FORM SIDE ===== */
+.contact {
+    flex: 1;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.contact form {
+    width: 100%;
+}
+
+.contact form label {
+    display: block;
+    font-family: Arial;
+    padding-top: 25px;
+    padding-bottom: 8px;
+    color: gray;
+}
+
+.contact form input {
+    display: block;
+    padding: 1em;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(231, 228, 233);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.contact form input:focus {
+    border: 3px solid skyblue;
+}
+
+.contact textarea {
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.contact button {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: rgb(69, 69, 182);
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.contact small {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+/* ===== ADDRESS + MAP SIDE ===== */
+.address-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.address-info i {
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(32, 31, 31);
+}
+
+.address-info p {
+    font-family: Arial;
+    color: rgb(63, 62, 62);
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#numb {
+    text-decoration: underline;
+    font-size: 1em;
+    padding-top: 1px;
+}
+
+#dumb {
+    text-decoration: underline;
+    font-size: 1.3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(63, 62, 62);
+    text-decoration-thickness: 1.3px;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.links a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    color: rgb(63, 62, 62);
+}
+
+/* ===== MAP STYLING ===== */
+.map-container {
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: inherit;
+    display: block;
+}
+
+/* ===== ADDRESS BOX BORDER ===== */
+.addres {
+    border: 1px solid rgba(143, 140, 140, 0.253);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        /* background-color: rgb(97, 45, 45); */
+    }
+
+    .img1 {
+        width: 100% !important;
+        height: auto;
+    }
+
+
+}
