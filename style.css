@@ -664,6 +664,101 @@ marquee {
 
 
 
+footer {
+    /* border: 1px solid black; */
+    margin-top: 100px;
+
+}
+
+
+
+.geekielogo h1 {
+    color: rgb(47, 47, 168);
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+
+
+.geekielogo p {
+    color: rgb(57, 52, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.geekielogo #bg {
+    background-color: rgba(144, 155, 177, 0.185);
+    padding: 3px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 350px;
+    font-size: 1.2em;
+}
+
+
+
+
+.navb a {
+    display: block;
+    line-height: 3.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 52, 78);
+    font-size: 1.2em;
+
+}
+
+.navb a:hover {
+    text-decoration: underline;
+}
+
+
+
+.contact-section p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    color: rgb(73, 73, 73);
+
+}
+
+.last p {
+    margin: 20px;
+}
+
+
+
+small {
+    color: grey;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
